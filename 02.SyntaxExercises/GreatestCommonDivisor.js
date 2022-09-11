@@ -23,6 +23,3 @@ function GCD(firstNum, secondNum){
 
     console.log(divisor);
 }
-
-GCD(15,5);
-GCD(2154, 458);
