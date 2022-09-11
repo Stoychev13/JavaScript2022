@@ -12,6 +12,3 @@ function cookingByNumbers(number, firstOperator, secondOperator, thirdOperator, 
         console.log(number);
     }
 }
-
-cookingByNumbers('32', 'chop', 'chop', 'chop', 'chop', 'chop');
-cookingByNumbers('9', 'dice', 'spice', 'chop', 'bake', 'fillet')
