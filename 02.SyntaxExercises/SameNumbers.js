@@ -17,6 +17,3 @@ function SameNumbers(number){
    console.log(areEqual);
    console.log(finalSum);
    }
-   
-   SameNumbers(2222222);
-   SameNumbers(1234);
