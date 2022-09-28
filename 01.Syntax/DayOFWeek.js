@@ -1,6 +1,6 @@
 function dayOFWeek (days){
 
-    let output
+    let output;
 
     switch (days){
         case ('Monday') :output = '1';  break;
@@ -10,7 +10,7 @@ function dayOFWeek (days){
         case('Friday') :output = '5'; break;
         case('Saturday') :output = '6'; break;
         case('Sunday') :output = '7'; break;
-        default :output = 'Invalid'; break;
+        default :output = 'e'; break;
     }
 
     console.log(output);
