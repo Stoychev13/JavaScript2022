@@ -23,8 +23,3 @@ function roadRadar(speed,area){
             console.log(`The speed is ${speed-speedlimit} km/h faster than the allowed speed of ${speedlimit} - ${status}`);
         }
     }
-    
-    roadRadar(40, 'city');
-    roadRadar(21, 'residential');
-    roadRadar(120, 'interstate');
-    roadRadar(200, 'motorway');

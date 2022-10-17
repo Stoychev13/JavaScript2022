@@ -21,5 +21,3 @@ function timetoWalk(steps, lengthOfFootprint, speed){
 
     console.log(`${hoursToWalk<10?'0':''}${hoursToWalk}:${minutesToWalk<10?'0':''}${minutesToWalk.toFixed(0)}:${secondsToWalk<10?'0':''}${secondsToWalk.toFixed(0)}`)
 }
-
-timetoWalk(4000, 0.60, 5);
