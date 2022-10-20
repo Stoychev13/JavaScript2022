@@ -2,36 +2,35 @@ function attachEventsListeners() {
 
     const calculator = {
         calculateDay(days){
-            let hours = days*24;
-            let minutes = hours*60;
-            let seconds = minutes*60;
+            let hours = days * 24;
+            let minutes = hours * 60;
+            let seconds = minutes * 60;
 
-            return [Number(days),hours,minutes,seconds];
+            return [Number(days), hours, minutes, seconds];
         },
         calculateHours(hours){
-            let days = hours/24;
-            let minutes = hours*60;
-            let seconds = minutes*60;
+            let days = hours / 24;
+            let minutes = hours * 60;
+            let seconds = minutes * 60;
             
-            return [days,Number(hours),minutes,seconds];
+            return [days,Number(hours), minutes, seconds];
         },
         calculateMinutes(minutes){
-            let hours = minutes/60;
-            let days = hours/24;
-            let seconds = minutes*60;
+            let hours = minutes / 60;
+            let days = hours / 24;
+            let seconds = minutes * 60;
 
-            return [days,hours,Number(minutes),seconds];
+            return [days,hours,Number(minutes), seconds];
         },
         calculateSeconds(seconds){
 
-            let minutes = seconds/60;
-            let hours = minutes/60;
-            let days = hours/24;
+            let minutes = seconds / 60;
+            let hours = minutes / 60;
+            let days = hours / 24;
 
-            return [days,hours,minutes,Number(seconds)];
+            return [days, hours, minutes, Number(seconds)];
         }
     }
-
 
     let buttons = document.querySelectorAll('input[type=button]');
 
